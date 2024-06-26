@@ -47,4 +47,6 @@ Allso has the element a counter signal that is used in the view method. If the s
 
 Since there should be no build step, no TypeScript can be used for a type security. However, this does not mean that you cannot achieve type safety. As an alternative, you can use JSDocs and write d.ts files manually. This does not give the same "beauty" of type anotations but the same security.
 
-You can optionally use the Vadin router for routing.
+3. [Vaadin-Router](https://github.com/vaadin/router)
+
+You can optionally use the vaadin router for routing.
