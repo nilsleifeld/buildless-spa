@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "update": "rollup -c"
+    "build": "rollup -c"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
