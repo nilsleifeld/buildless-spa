@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@vaadin/router": [
+        "./libs/node_modules/@vaadin/router/dist/vaadin-router.d.ts"
+      ],
+      "@preact/signals": [
+        "./libs/node_modules/@preact/signals-core/dist/signals-core.d.ts"
+      ],
+      "lit-html": [
+        "./libs/node_modules/lit-html/development/lit-html.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./src/libs/**"
+  ]
+}
