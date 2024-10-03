@@ -5,10 +5,12 @@
   "scripts": {
     "build": "rollup -c",
     "check": "tsc",
-    "config": "tsc --showConfig"
+    "config": "tsc --showConfig",
+    "format": "prettier --write \"**/*.{js,ts,css,html,json,md}\""
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "prettier": "^3.3.3",
     "rollup": "^4.9.6",
     "typescript": "^5.5.2"
   },
