@@ -1,5 +1,5 @@
-import { signal } from '@preact/signals';
-import { effect } from '@preact/signals';
+import { signal } from '@preact/signals-core';
+import { effect } from '@preact/signals-core';
 
 export const title = signal('');
 

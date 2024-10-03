@@ -1,5 +1,5 @@
-import { render as litRender } from '../libs/lit-html.js';
-import { effect } from '@preact/signals';
+import { render as litRender } from 'lit-html';
+import { effect } from '@preact/signals-core';
 
 /**
  * A base class for creating custom elements with signals.

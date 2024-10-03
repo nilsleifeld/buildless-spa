@@ -1,5 +1,5 @@
 import { html } from 'lit-html';
-import { signal, batch } from '@preact/signals';
+import { signal, batch } from '@preact/signals-core';
 import SignalElement from '../../shared/signal-element.js';
 import { todos, todoCount } from './entity.js';
 import { addTodo, changeTodoText, deleteTodo } from './control.js';

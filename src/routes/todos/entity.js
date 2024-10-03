@@ -1,4 +1,4 @@
-import { signal, computed, effect } from '@preact/signals';
+import { signal, computed, effect } from '@preact/signals-core';
 
 /** @typedef {import('types').Todo} Todo */
 

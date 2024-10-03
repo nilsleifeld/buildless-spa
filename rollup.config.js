@@ -7,7 +7,7 @@ export default [
       './node_modules/@vaadin/router/dist/vaadin-router.js',
       './node_modules/@preact/signals-core/dist/signals-core.module.js',
     ],
-    output: { dir: '../src/libs', format: 'esm', sourcemap: true },
+    output: { dir: './src/libs', format: 'esm' },
     plugins: [
       nodeResolve({
         browser: true,

@@ -1,5 +1,5 @@
 import SignalElement from './../shared/signal-element.js';
-import { signal } from '@preact/signals';
+import { signal } from '@preact/signals-core';
 import { html } from 'lit-html';
 // @ts-ignore
 import style from './page.css' with { type: 'css' };
